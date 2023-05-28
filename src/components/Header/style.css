@@ -1,0 +1,39 @@
+.header {
+    position: fixed;
+    width: 100%;
+    top: 20px;
+    background: #f0f8ff00;
+    z-index: 1;
+}
+
+.header_logo {
+    width: 167px;
+    aspect-ratio: 37/10;
+}
+
+.header_content {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.btn-header {
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    /* Primary/White */
+
+    color: #FFFFFF;
+    background: #E50914;
+    border-radius: 3px;
+    cursor: pointer;
+}

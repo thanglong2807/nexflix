@@ -1,0 +1,87 @@
+.frequentlylist {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #303030;
+    border-radius: 0px;
+    padding: 21px 31px;
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+}
+
+.frequentlylist_title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+
+}
+
+.frequentlylist_item {
+    background: #303030;
+    padding: 21px 31px;
+    overflow: hidden;
+    max-height: 0;
+    visibility: collapse;
+    max-height: 0;
+    padding: 0 1.5rem;
+    -webkit-transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+    transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+    text-align: left;
+    background-color: rgba(45, 45, 45, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.slide-top {
+    transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+}
+
+.frequentlylist-hover:hover {
+    background: #3d3d3d;
+
+}
+
+.mgt-60 {
+    margin-top: 60px;
+}
+
+.rotate-45-cw {
+
+    animation: rotate-45-cw .5s cubic-bezier(0.39, 0.38, 0.39, 0.38) both !important;
+}
+
+.rotate-45-ccw {
+    animation: rotate-45-ccw .5s cubic-bezier(0.39, 0.38, 0.39, 0.38) both
+}
+
+
+
+@keyframes rotate-45-cw {
+    0% {
+
+        transform: rotate(-45deg)
+    }
+
+    100% {
+
+        transform: rotate(0)
+    }
+}
+
+@keyframes rotate-45-ccw {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(-45deg)
+    }
+}
+
+
+.slide-fwd-bottom {
+    max-height: 75rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    visibility: inherit;
+}

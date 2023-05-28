@@ -1,0 +1,76 @@
+.banner {
+
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url("../../../assets/images/HeroImage.png") rgba(0, 0, 0, 0.4) no-repeat center center;
+
+
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    top: 0px;
+}
+
+.banner_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.banner_title {
+    max-width: 686px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
+    /* or 110% */
+
+    text-align: center;
+    letter-spacing: -0.005em;
+
+    /* Primary/White */
+
+    color: #FFFFFF;
+}
+
+.banner_des {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    margin: 16px 0 30px;
+}
+
+.banner_form-wrapper {
+    min-width: 748px;
+
+}
+
+.banner_form-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    margin-bottom: 19px;
+}
+
+.banner_form {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+.banner_form-input {
+    flex: 1;
+    padding-left: 7px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #8C8C8C;
+}
+
+.btn-form {
+    padding: 16px 31px !important;
+}

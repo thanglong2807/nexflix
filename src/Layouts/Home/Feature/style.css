@@ -1,0 +1,8 @@
+.feature {
+    background-color: #000;
+}
+
+.feature_content {
+    display: flex;
+    flex-direction: column;
+}

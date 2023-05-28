@@ -1,0 +1,21 @@
+.frequently {
+    padding: 70px 0;
+}
+
+.frequently_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    /* identical to box height, or 110% */
+    text-align: center;
+    letter-spacing: -0.01em;
+}
+
+.frequently_list {
+    display: flex;
+    flex-direction: column;
+    max-width: 815px;
+    margin: 58px auto;
+    gap: 9px;
+}
