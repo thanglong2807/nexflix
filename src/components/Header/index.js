@@ -5,6 +5,7 @@ import IconEarth from "./../../assets/icons/icon-park-outline_earth.svg"
 import IconDown from "./../../assets/icons/bi_caret-down-fill.svg"
 import styles from "./style.css"
 import classNames from 'classnames/bind';
+import { Link } from 'react-router-dom';
 function Header() {
     const cx = classNames.bind(styles);
     return (
@@ -19,7 +20,7 @@ function Header() {
                             <span>Tiếng Việt</span>
                             <img src={IconDown} alt='logoDow' />
                         </div>
-                        <button className={cx('btn-header')}>Sign In</button>
+                        <Link to={`/Signin`} className={cx('btn-header')}>Sign In</Link>
                     </div>
 
                 </div>

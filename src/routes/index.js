@@ -7,7 +7,7 @@ const publicRoutes = [
         component: Home,
     },
     {
-        path: "/Signn",
+        path: "/Signin",
         component: Signin,
     },
 ]
