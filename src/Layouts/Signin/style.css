@@ -9,11 +9,55 @@
     height: 100%;
 }
 
-.form_signin {
+.signin_content {
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    width: 400px;
+    align-items: center;
+}
+
+.form_signin {
+
     margin: 0 auto;
+    Width: 450px;
+    Height: 660px;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 60px 68px 0;
+}
+
+.form_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+
+.form_wrapper {
+    margin-top: 26px;
+}
+
+.mg-input {
+    margin: 16px 0 42px;
+}
+
+.form_submit {
+    background: #E50914;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.55);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    letter-spacing: 0.1px;
+    width: 100%;
+    padding: 16px 0;
+    color: #FFFFFF;
+    text-transform: capitalize;
 }

@@ -3,7 +3,7 @@ import "./style.css"
 function Input(props) {
     // onClick={props.onClick}
     return (
-        <div className='input_container' >
+        <div className={`input_container  ${props.className}`} >
 
             <input
                 className={`input`}
